@@ -12,14 +12,14 @@
     },
     "repository": {
       "type": "git",
-      "url": "Profile-Generator"
+      "url": "Profile-Me"
     },
     "author": "Shikelia Hagens",
     "license": "ISC",
     "devDependencies": {
-      "jest": ""
+      "jest": "^27.4.3"
     },
     "dependencies": {
-      "inquirer": ""
+      "inquirer": "^8.2.0"
     }
   }
