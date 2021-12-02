@@ -1,0 +1,25 @@
+{
+    "name": "profile-generator",
+    "version": "1.0.0",
+    "description": "team profile generator",
+    "main": "index.js",
+    "directories": {
+      "lib": "lib",
+      "test": "tests"
+    },
+    "scripts": {
+      "test": "jest"
+    },
+    "repository": {
+      "type": "git",
+      "url": "Profile-Generator"
+    },
+    "author": "Shikelia Hagens",
+    "license": "ISC",
+    "devDependencies": {
+      "jest": ""
+    },
+    "dependencies": {
+      "inquirer": ""
+    }
+  }
