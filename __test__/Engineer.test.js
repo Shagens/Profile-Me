@@ -1,7 +1,7 @@
 const Engineer = require('../lib/Engineer.js');
 
 test('creates Engineer object', () => {
-    const engineer = new Engineer('kelia', 2, 'kelia@email.com', 'shagens');
+    const engineer = new Engineer('Shikelia', '2', 'hagensshik@gmail.com', 'Shagens');
   
     expect(engineer.name).toEqual(expect.any(String));
     expect(engineer.id).toEqual(expect.any(Number));
@@ -10,31 +10,31 @@ test('creates Engineer object', () => {
   });
   
   test('name', () => {
-    const name = 'kelia';
-    const engineer = new Engineer(name, 2, 'kelia@email.com', 'shagens');
-    expect(engineer.name).toEqual('kelia');
+    const name = 'Shikelia';
+    const engineer = new Engineer(name, '2', 'hagensshik@gmail.com', 'Shagens');
+    expect(engineer.name).toEqual('Shikelia');
   });
   
   test('id', () => {
     const id = '2';
-    const engineer = new Engineer('kelia', id, 'kelia@email.com', 'shagens');
+    const engineer = new Engineer('Shikelia', id, 'hagensshik@gmail.com', 'Shagens');
     expect(engineer.id).toEqual('2');
   });
   
   test('email', () => {
-    const email = 'kelia@email.com';
-    const engineer = new Engineer('kelia', 2, email, 'shagens');
+    const email = 'hagensshik@gmail.com';
+    const engineer = new Engineer('Shikelia', '2', email, 'Shagens');
     expect(engineer.getEmail()).toEqual(email);
   });
 
   test('gitHub', () => {
-    const gitHub = 'shagens';
-    const engineer = new Engineer('kelia', 2, 'kelia@email.com', gitHub);
+    const gitHub = 'Shagens';
+    const engineer = new Engineer('Shikelia', '2', 'hagensshik@gmail.com', gitHub);
     expect(engineer.getGithub()).toEqual(gitHub);
   });
   
   test('role', () => {
     const role = 'Engineer';
-    const engineer = new Engineer('kelia', 2, 'kelia@email.com', 'gitHub', role);
+    const engineer = new Engineer('Shikelia', '2', 'hagensshik@gmail.com', 'Shagens', role);
     expect(engineer.getRole()).toEqual(role);
   });

@@ -28,6 +28,6 @@ test('email', () => {
 
 test('role', () => {
   const role = 'Employee';
-  const employee = new Employee('jake', 4, 'jake@email.com');
+  const employee = new Employee('jake', 4, 'jake@email.com', role);
   expect(employee.getRole()).toEqual(role);
 });
